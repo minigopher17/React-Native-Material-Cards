@@ -84,11 +84,13 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   titleText: {
-    fontSize: 24
+    fontSize: 24,
+    fontFamily: 'Roboto-Regular',
   },
   subtitleText: {
-    fontSize:14,
-    color: 'rgba(0 ,0 ,0 , 0.38)'
+    fontSize: 14,
+    color: 'rgba(0 ,0 ,0 , 0.38)',
+    fontFamily: 'Roboto-Regular',
   },
   avatarStyle: {
     width: 40,

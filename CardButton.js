@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontWeight: '600',
     fontSize: 14,
-    color: 'orange'
+    color: 'orange',
+    fontFamily: 'Roboto-Regular',
   }
 });

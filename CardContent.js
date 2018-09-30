@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
   },
   contentText: {
     fontSize: 14,
-    color: 'rgba(0 ,0 ,0 , 0.54)'
+    color: 'rgba(0 ,0 ,0 , 0.54)',
+    fontFamily: 'Roboto-Regular',
   },
   avatarStyle: {
     width: 40,
