@@ -28,36 +28,36 @@ export default class CardTitle extends Component {
     }
     if(this.props.subtitleAbove!==true) {
       return (
-        <View style={[styles.cardTitle, newStyle]}>
-          {this.props.avatarSource!==undefined &&
+          <View style={[styles.cardTitle, newStyle]}>
+            {this.props.avatarSource!==undefined &&
             <Image source={this.props.avatarSource} resizeMode="stretch" style={styles.avatarStyle} />
-          }
-          <View style={styles.cardTitleTextCont}>
-            {this.props.title!==undefined &&
+            }
+            <View style={styles.cardTitleTextCont}>
+              {this.props.title!==undefined &&
               <Text style={this.props.avatarSource===undefined ? titleStyle : [titleStyle, {fontSize: 14}]}>{this.props.title}</Text>
-            }
-            {this.props.subtitle!==undefined &&
+              }
+              {this.props.subtitle!==undefined &&
               <Text style={subtitleStyle}>{this.props.subtitle}</Text>
-            }
+              }
+            </View>
           </View>
-        </View>
       );
     }
     else {
       return (
-        <View style={[styles.cardTitle, newStyle]}>
-          {this.props.avatarSource!==undefined &&
+          <View style={[styles.cardTitle, newStyle]}>
+            {this.props.avatarSource!==undefined &&
             <Image source={this.props.avatarSource} resizeMode="stretch" style={styles.avatarStyle} />
-          }
-          <View style={styles.cardTitleTextCont}>
-            {this.props.subtitle!==undefined &&
+            }
+            <View style={styles.cardTitleTextCont}>
+              {this.props.subtitle!==undefined &&
               <Text style={subtitleStyle}>{this.props.subtitle}</Text>
-            }
-            {this.props.title!==undefined &&
+              }
+              {this.props.title!==undefined &&
               <Text style={this.props.avatarSource===undefined ? titleStyle : [titleStyle, {fontSize: 14}]}>{this.props.title}</Text>
-            }
+              }
+            </View>
           </View>
-        </View>
       );
     }
   }
@@ -65,7 +65,8 @@ export default class CardTitle extends Component {
 
 const styles = StyleSheet.create({
   darkText: {
-    color: 'rgba(0 ,0 ,0 , 0.87)'
+    //color: 'rgba(0 ,0 ,0 , 0.87)'
+    color: '#063868',
   },
   lightText: {
     color: 'rgba(255 ,255 ,255 , 0.87)'
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   titleText: {
-    fontSize: 24,
+    fontSize: 18,
     fontFamily: 'Roboto-Regular',
   },
   subtitleText: {
