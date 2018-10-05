@@ -39,13 +39,13 @@ const styles = StyleSheet.create({
   cardActionInRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignSelf: 'stretch'
   },
   cardActionInColumn: {
     flexDirection: 'column',
     alignItems: 'stretch',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignSelf: 'stretch'
   },
   separatorAdd: {
