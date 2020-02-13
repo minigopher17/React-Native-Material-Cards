@@ -86,12 +86,12 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 18,
-    fontFamily: 'Roboto-Regular',
+    fontFamily: 'ProximaNovaSoft-Regular',
   },
   subtitleText: {
     fontSize: 14,
     color: 'rgba(0 ,0 ,0 , 0.38)',
-    fontFamily: 'Roboto-Regular',
+    fontFamily: 'ProximaNovaSoft-Regular',
   },
   avatarStyle: {
     width: 40,

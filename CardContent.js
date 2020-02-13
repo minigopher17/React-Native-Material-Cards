@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     //color: 'rgba(0 ,0 ,0 , 0.54)',
     color: '#000000',
-    fontFamily: 'Roboto-Regular',
+    fontFamily: 'ProximaNovaSoft-Regular',
   },
   avatarStyle: {
     width: 40,

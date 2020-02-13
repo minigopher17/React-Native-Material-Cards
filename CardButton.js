@@ -44,6 +44,6 @@ const styles = StyleSheet.create({
     //fontWeight: '600',
     fontSize: 10,
     color: 'orange',
-    fontFamily: 'Roboto-Regular',
+    fontFamily: 'ProximaNovaSoft-Regular',
   }
 });
