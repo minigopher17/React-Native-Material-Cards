@@ -66,7 +66,7 @@ export default class CardTitle extends Component {
 const styles = StyleSheet.create({
   darkText: {
     //color: 'rgba(0 ,0 ,0 , 0.87)'
-    color: '#063868',
+    color: '#0A385B',
   },
   lightText: {
     color: 'rgba(255 ,255 ,255 , 0.87)'
